@@ -16,9 +16,10 @@ git config --global url."git://".insteadOf https://
 git config --global init.defaultBranch main
 
 
-# instalação so software da placa de video
+# instalação de outros pacotes
 ./nvidia-geforce-driver.sh 
 ./discord.sh
+./mysql.sh
 
 ### Caso você tenha a sua chave SSH, coloque os arquivos dentro da pasta ~/.ssh antes de continuar
 #eval "$(ssh-agent -s)"
