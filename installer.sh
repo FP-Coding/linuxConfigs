@@ -13,6 +13,12 @@ git config --global pull.rebase false
 # linhas para obrigar a utilizar SSH sempre
 git config --global url."git@github.com:".insteadOf https://github.com/
 git config --global url."git://".insteadOf https://
+git config --global init.defaultBranch main
+
+
+# instalação so software da placa de video
+./nvidia-geforce-driver.sh 
+
 
 ### Caso você tenha a sua chave SSH, coloque os arquivos dentro da pasta ~/.ssh antes de continuar
 #eval "$(ssh-agent -s)"
