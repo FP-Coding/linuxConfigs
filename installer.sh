@@ -18,7 +18,7 @@ git config --global init.defaultBranch main
 
 # instalação so software da placa de video
 ./nvidia-geforce-driver.sh 
-
+./discord.sh
 
 ### Caso você tenha a sua chave SSH, coloque os arquivos dentro da pasta ~/.ssh antes de continuar
 #eval "$(ssh-agent -s)"
