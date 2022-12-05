@@ -32,8 +32,10 @@ git config --global init.defaultBranch main
 ./slack.sh
 ./vscode.sh
 
-sudo apt install gnome-tweaks
-sudo apt-get install dconf-editor
+### Usos pessoais
+./linux-edits.sh
+./remote-mousepad.sh
+
 
 ### Programas e itens não obrigatórios (tudo está comentado, caso queira alguma coisa, descomente a linha e rode o script novamente
 #sudo apt install -y steam fonts-firacode lm-sensors psensor
