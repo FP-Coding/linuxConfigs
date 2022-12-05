@@ -27,10 +27,13 @@ git config --global init.defaultBranch main
 #ssh-add ~/.ssh/id_rsa
 
 ### Instalando os programas necessários para a Trybe
-#./chrome.sh
-#./zoom.sh
-#./slack.sh
-#./vscode.sh
+./chrome.sh
+./zoom.sh
+./slack.sh
+./vscode.sh
+
+sudo apt install gnome-tweaks
+sudo apt-get install dconf-editor
 
 ### Programas e itens não obrigatórios (tudo está comentado, caso queira alguma coisa, descomente a linha e rode o script novamente
 #sudo apt install -y steam fonts-firacode lm-sensors psensor
