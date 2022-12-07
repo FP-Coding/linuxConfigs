@@ -10,6 +10,7 @@ export NVM_DIR="$HOME/.nvm"
 nvm install node
 nvm install 16
 nvm alias default 16
+npm install --global yarn
 
 echo Feche o terminal e abra novamente ANTES de utilizar
 
