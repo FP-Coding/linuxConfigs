@@ -20,6 +20,7 @@ git config --global init.defaultBranch main
 ./nvidia-geforce-driver.sh 
 ./discord.sh
 ./mysql.sh
+./insomnia.sh
 
 ### Caso você tenha a sua chave SSH, coloque os arquivos dentro da pasta ~/.ssh antes de continuar
 #eval "$(ssh-agent -s)"
